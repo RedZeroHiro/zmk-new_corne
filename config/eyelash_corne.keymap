@@ -89,6 +89,13 @@
             bindings = <&none &kp LT &kp T &kp I &kp C &kp K &kp GT>;
             label = "TICK";
         };
+
+        Schwa: Schwa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp S &kp C &kp H &kp W &kp A &kp GT>;
+            label = "SCHWA";
+        };
     };
 
     keymap {
