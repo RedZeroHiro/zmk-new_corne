@@ -293,6 +293,8 @@
 &kp LSHFT  &kp Z  &kp X  &kp C                     &kp V   &kp B      &kp LG(LEFT)              &kp DOWN             &kp N      &kp M   &kp COMMA                  &kp DOT  &kp FSLH  &kp RET
                          &kp LG(LS(LEFT_BRACKET))  &trans  &kp SPACE                                                 &kp SPACE  &trans  &kp LS(LG(RIGHT_BRACKET))
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(LEFT) LC(RIGHT)>;
         };
     };
 };
