@@ -131,6 +131,62 @@
             bindings = <&none &kp LT &kp R &kp I &kp G &kp H &kp T &kp N2 &kp GT>;
             label = "RIGHTARROW";
         };
+
+        NotEqual: NotEqual {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp N &kp O &kp T &kp GT>;
+            label = "NOTEQUAL";
+        };
+
+        Approx: Approx {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp A &kp P &kp P &kp R &kp O &kp X &kp GT>;
+            label = "APPROX";
+        };
+
+        Sum: Sum {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp S &kp I &kp G &kp M &kp A &kp N2 &kp GT>;
+            label = "SUM";
+        };
+
+        QED: QED {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp T &kp H &kp U &kp S &kp GT>;
+            label = "QED";
+        };
+
+        So: So {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp S &kp O &kp GT>;
+            label = "SO";
+        };
+
+        ditto: ditto {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp D &kp I &kp T &kp T &kp O &kp GT>;
+            label = "DITTO";
+        };
+
+        Paragraph: Paragraph {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp P &kp A &kp R &kp A &kp GT>;
+            label = "PARAGRAPH";
+        };
+
+        SpaceSymb: SpaceSymb {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp S &kp P &kp A &kp C &kp E &kp GT>;
+            label = "SPACESYMB";
+        };
     };
 
     keymap {
