@@ -208,6 +208,20 @@
             bindings = <&none &kp LEFT_SHIFT &kp N>;
             label = "DAW_NEXTMARKER";
         };
+
+        DAW_PrevBar: DAW_PrevBar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LEFT_SHIFT &kp KP_MINUS>;
+            label = "DAW_PREVBAR";
+        };
+
+        DAW_NextBar: DAW_NextBar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LEFT_SHIFT &kp PLUS>;
+            label = "DAW_NEXTBAR";
+        };
     };
 
     keymap {
@@ -259,6 +273,15 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        Studio_One {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                       &kp LEFT_BRACKET             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &kp MINUS  &kp LC(L)          &kp PLUS  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans               &kp RIGHT_BRACKET            &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                                    &trans  &trans  &trans
+            >;
         };
     };
 };
