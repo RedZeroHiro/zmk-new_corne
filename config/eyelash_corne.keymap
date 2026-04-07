@@ -103,6 +103,34 @@
             bindings = <&none &kp LT &kp COLON &kp GT>;
             label = "LONGMARK";
         };
+
+        UpArrow: UpArrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp U &kp P &kp N2 &kp GT>;
+            label = "UPARROW";
+        };
+
+        DownArrow: DownArrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp D &kp O &kp W &kp N &kp N2 &kp GT>;
+            label = "DOWNARROW";
+        };
+
+        LeftArrow: LeftArrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp L &kp E &kp F &kp T &kp N2 &kp GT>;
+            label = "LEFTARROW";
+        };
+
+        RightArrow: RightArrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp R &kp I &kp G &kp H &kp T &kp N2 &kp GT>;
+            label = "RIGHTARROW";
+        };
     };
 
     keymap {
