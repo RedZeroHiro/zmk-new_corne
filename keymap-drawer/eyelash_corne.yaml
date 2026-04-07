@@ -266,7 +266,7 @@ layers:
   - F
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+E
   - $$mdi:arrow-right-bold$$
   - H
   - J
