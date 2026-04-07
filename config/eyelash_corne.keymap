@@ -61,6 +61,36 @@
         };
     };
 
+    macros {
+        Null: Null {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp O &kp S &kp L &kp A &kp S &kp H &kp GT>;
+            label = "NULL";
+        };
+
+        Arrow: Arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp MINUS &kp GT &kp GT>;
+            label = "ARROW";
+        };
+
+        Star: Star {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp S &kp T &kp A &kp R &kp N1 &kp GT>;
+            label = "STAR";
+        };
+
+        Tick: Tick {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp T &kp I &kp C &kp K &kp GT>;
+            label = "TICK";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
