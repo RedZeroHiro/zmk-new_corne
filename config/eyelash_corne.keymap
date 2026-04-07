@@ -96,6 +96,13 @@
             bindings = <&none &kp LT &kp S &kp C &kp H &kp W &kp A &kp GT>;
             label = "SCHWA";
         };
+
+        LongMark: LongMark {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp COLON &kp GT>;
+            label = "LONGMARK";
+        };
     };
 
     keymap {
