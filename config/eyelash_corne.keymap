@@ -187,6 +187,27 @@
             bindings = <&none &kp LT &kp S &kp P &kp A &kp C &kp E &kp GT>;
             label = "SPACESYMB";
         };
+
+        DAW_Split: DAW_Split_Play {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LEFT_ALT &kp X>;
+            label = "DAW_SPLIT_PLAY";
+        };
+
+        DAW_TrackSpecial: DAW_TrackSpecial {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LEFT_SHIFT &kp B>;
+            label = "DAW_TRACKSPECIAL";
+        };
+
+        DAW_NextMarker: DAW_NextMarker {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LEFT_SHIFT &kp N>;
+            label = "DAW_NEXTMARKER";
+        };
     };
 
     keymap {
