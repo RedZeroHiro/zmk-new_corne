@@ -282,10 +282,10 @@
 
         StudioOneChanTrans {
             bindings = <
-&kp LC(Q)       &kp LS(Q)  &trans         &trans     &trans         &kp LS(T)                              &kp LEFT_BRACKET                    &trans               &trans  &trans  &trans  &trans  &kp M
-&kp LS(LC(N))   &kp LC(I)  &kp LC(LA(S))  &kp LS(D)  &trans         &trans               &kp LS(KP_MINUS)  &kp LC(LA(C))      &kp LS(KP_PLUS)  &trans               &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LC(Y)  &kp LS(X)      &kp LC(X)  &kp LC(LS(V))  &kp LC(B)  &trans                      &kp RIGHT_BRACKET                   &trans               &trans  &trans  &trans  &trans  &trans
-                                          &trans     &trans         &kp SPACE                                                                  &kp LS(KP_ASTERISK)  &trans  &trans
+&kp LC(Q)       &kp LS(Q)  &trans         &trans     &trans         &kp LS(T)                              &kp LEFT_BRACKET                    &trans               &trans          &trans          &trans           &kp U      &kp M
+&kp LS(LC(N))   &kp LC(I)  &kp LC(LA(S))  &kp LS(D)  &trans         &trans               &kp LS(KP_MINUS)  &kp LC(LA(C))      &kp LS(KP_PLUS)  &trans               &trans          &msc SCRL_UP    &trans           &kp LS(P)  &trans
+&kp LEFT_SHIFT  &kp LC(Y)  &kp LS(X)      &kp LC(X)  &kp LC(LS(V))  &kp LC(B)  &trans                      &kp RIGHT_BRACKET                   &trans               &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans     &trans
+                                          &trans     &trans         &kp SPACE                                                                  &kp LS(KP_ASTERISK)  &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LA(KP_PLUS) LA(KP_MINUS)>;
